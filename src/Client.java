@@ -38,13 +38,12 @@ public class Client{
     {
         ostream.println(pseudo + " : " + str);
         ostream.flush();
-        System.out.println("bite");
     }
 
     public static void checkForMsg() throws IOException
     {
         BufferedReader br = new BufferedReader(
                 new InputStreamReader(socket.getInputStream()));
-        System.out.println(br.readLine());
+        System.out.println("message" + br.readLine());
     }
 }

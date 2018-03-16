@@ -19,8 +19,6 @@ public class Panel extends JPanel
         this.textField = new JTextField();
         gauche.add(this.textField, BorderLayout.SOUTH);
 
-
-
         this.setVisible(true);
     }
 

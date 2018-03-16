@@ -9,7 +9,7 @@ public class Frame extends JFrame
     {
         this.pseudoPanel = new PseudoPanel(this);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.setLocationRelativeTo(null);
+        this.setLocation(200,200);
         this.setSize(400,400);
         setContentPane(pseudoPanel);
         this.setVisible(true);
